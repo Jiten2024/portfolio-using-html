@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    /* background: yellow; */
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+}
+
+#portfoil_latter {
+    color: white;
+    font-size: 185%;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(124, 92, 230);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background: rgb(73 143 221);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 620px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.firstSection>div {
+    width: 33.5%;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.rightSection img {
+    width: 21rem;
+    margin-top: 5rem;
+}
+
+#userNameColor {
+    color: rgb(124 71 175);
+}
+
+#element {
+    color: aquamarine;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+hr {
+    border: 0;
+    background: #104caf;
+    height: 1.5px;
+    margin: 15px 52px;
+}
+
+.secondSection h1 {
+    font-size: 1.5rem;
+}
+
+/* For line under Work Experience */
+.secondSection .box {
+    background: white;
+    width: 82vw;
+    height: 2px;
+    margin: 45px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 70px;
+    width: 1px;
+    background-color: rgb(234, 35, 35);
+    margin: 1px 90px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 40px;
+    left: -85px;
+    width: 180px;
+    font-size: 13px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 45px;
+    color: gray;
+    width: 180px;
+    font-size: 12px;
+    margin-left: -85px;
+}
+
+footer {
+    background-color: rgb(18 18 67);
+    color: white;
+    padding: 10px 0;
+    margin-top: 25%;
+    height: 2px;
+    height: 93px;
+}
+
+.footer {
+    display: flex;
+
+}
+
+.footer .footer-second {
+    text-decoration: none;
+}
