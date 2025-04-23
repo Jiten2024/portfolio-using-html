@@ -33,10 +33,9 @@
                 Hello, 
                 <div>It's me <span id="userNameColor">Jiten Pal</span></div>
                 <div>
-                    and I am a Web Developer.
+                    and I am a <span id="element"></span>
                 </div>
                 <!-- Element to contain animated typing -->
-                <span id="element"></span>
             </div>
             <div class="rightSection">
                 <img src="bg.png" alt="Developer image">
@@ -134,14 +133,14 @@
     <!-- Load library from the CDN for Auto rtyping functionality (1st Script)-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! for Auto typing (2nd Script)-->
-    <!-- <script>
+    <script>
         var typed = new Typed('#element', {
-            strings: ['<i>Java Developer</i>.', '<i>Web Developer</i>.'],
+            strings: ['<i>Java Developer</i>.', '<i>Web Developer</i>.', '<i>ReactJS Developer</i>.'],
             typeSpeed: 80,
             backSpeed: 20, // Speed of erasing
             loop: true // Enables infinite looping
         });
-    </script> -->
+    </script>
 </body>
 
 </html>
